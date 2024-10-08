@@ -3,3 +3,6 @@ build:
 
 run: build
 	./bin/joke_norris
+
+test:
+	go test -v ./...
