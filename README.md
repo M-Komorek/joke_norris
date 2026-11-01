@@ -11,7 +11,7 @@ This microservice provides an API with two endpoints:
 
 The joke data is fetched from the [Chuck Norris Jokes API](https://api.chucknorris.io/).
 
-## 🏗 Project Structure
+## Project Structure
 
 ```bash
 .
@@ -43,13 +43,13 @@ make build
 
 The service will start on port `4200` by default, but you can change this in the `main.go`.
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 go test ./tests/...
 ```
 
-## 🚀 API Endpoints
+## API Endpoints
 
 Here are the two main endpoints:
 
@@ -80,7 +80,7 @@ Sample Response:
 }
 ```
 
-## 🧙 Configuration
+## Configuration
 
 If you want to change the source URL for Chuck Norris jokes or modify other parameters, you can do so in the `service.go` file. Right now, the jokes are pulled from the [Chuck Norris Jokes API](https://api.chucknorris.io/), but you can modify that if you want to.
 
